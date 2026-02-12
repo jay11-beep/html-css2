@@ -7,9 +7,11 @@ header{
     background-color: black;
     color: white;
     padding: 10px;
+    font-size: medium;
+    flex-wrap: wrap;
 }
 nav{
-    margin-left: 70%;
+    margin-left: 60%;
 }
 nav a{
     color: white;
@@ -54,4 +56,24 @@ nav a{
 #vh{
     height: 40vh;
     background-color: cadetblue;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+section{
+    padding: 10px;
+}
+@media(max-width:600px){
+    .Gallery{
+    grid-template-columns: repeat(1,1fr);
+}
+header{
+    background-color: white;
+    color:black;
+}
+#backimg{
+    background: url(i1.png)center/cover;
+}
 }
