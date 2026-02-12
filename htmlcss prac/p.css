@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+nav{
+    margin-left: 70%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    gap: 90px;
+    font-size: medium;
+}
+#backimg{
+    height: 50vh;
+    background: url(https://media.istockphoto.com/id/1459373176/vector/abstract-defocused-background-spring-summer-sea.jpg?s=612x612&w=0&k=20&c=P6D1VrXeeKsJfyKzlJeIqxyNXkeYtMb6C1mW6p68xro=)center/cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#info{
+    text-align: center;
+    font-size: larger;
+    line-height: 20px;
+}
+#info a{
+    background-color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+#info a:hover{
+    background-color:black;
+    color: white;
+}
+#wit{
+    width: 50%;
+    background-color: blueviolet;
+    margin-top:10px;
+    color: white;
+}
+#sec{
+    margin-top: 10px;
+    font-size: x-large;
+    padding: 20px;
+}
+#vh{
+    height: 40vh;
+    background-color: cadetblue;
+}
