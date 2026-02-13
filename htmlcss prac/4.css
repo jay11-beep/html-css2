@@ -1,0 +1,55 @@
+footer{
+    background-color: rgb(9, 90, 83);
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#con{
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3,0.5fr);
+}
+#jp{
+    display: grid;
+    grid-template-columns: repeat(2,0.2fr);
+    padding: 20px;
+    line-height: 40px;
+}
+#jp a{
+        color: white;
+    text-decoration: none;
+}
+#op,p{
+    line-height: 5px;
+    color: white;
+    position: relative;
+}
+#op{
+    padding: 20px;
+}
+#op h1{
+    color: rgb(39, 190, 39);
+}
+#co{
+    color: rgb(255, 123, 0);
+}
+#up h2{
+    color: orange;
+}
+#up{
+    color: white;
+}
+svg{
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+#ppo{
+    display: grid;
+    grid-template-columns: repeat(2,0.1fr);
+    padding: 20px;
+}
+#yo{
+    display: flex;
+    gap: 15px;
+}
